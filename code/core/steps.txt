@@ -1,0 +1,5 @@
+Steps and their parameters:
+
+Go to URL (string url)
+Click (locator type, locator value)
+Write text (locator type, locator value)
