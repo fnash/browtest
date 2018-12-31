@@ -4,14 +4,14 @@ namespace Browtest\Core;
 
 class Action
 {
-    const CLICK = '';
-    const WRITE_TEXT = '';
-    const GO_TO_URL = '';
-    const SELECT_OPTION = '';
-    const ADD_ASSERTION = '';
-    const PRESS_KEY = '';
-    const HOVER = '';
-    const RIGHT_CLICK = '';
-    const CLEAR_INPUT = '';
+    public const CLICK = '';
+    public const WRITE_TEXT = '';
+    public const GO_TO_URL = 'GO_TO_URL';
+    public const SELECT_OPTION = '';
+    public const ADD_ASSERTION = '';
+    public const PRESS_KEY = '';
+    public const HOVER = '';
+    public const RIGHT_CLICK = '';
+    public const CLEAR_INPUT = '';
 
 }
