@@ -44,9 +44,7 @@ try {
     $client->submit($form);
 
 
-    $client->takeScreenshot('2-dashboard.png');
-
-
+    takeScreenshot();
     $crawler = $client->request('GET', 'http://editorial.backoffice.local.francemm.com/france24/fr/links/new');
     $form = $crawler->filter('form')->form();
     $form['link[title]']->setValue('title');

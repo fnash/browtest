@@ -1,15 +1,15 @@
 {
+  "name": "fnash/browtest",
+  "description": "Make endtests with Web UI",
+  "license": "proprietary",
   "require": {
     "symfony/panther": "^0.2.0",
-    "symfony/var-dumper": "^4.2"
+    "symfony/var-dumper": "^4.2",
+    "doctrine/collections": "^1.5"
   },
   "autoload": {
     "psr-4": {
       "Fnash\\Browtest\\Core\\": "src/"
-    },
-    "classmap": [
-      "app/AppKernel.php",
-      "app/AppCache.php"
-    ]
-  },
+    }
+  }
 }
